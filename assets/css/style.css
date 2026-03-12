@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Popping", sans-serif;
+}
+
+.header {
+  background-color: #524f4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 500px;
+}
+.header .logo {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header .links ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.header .links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(237, 220, 220);
+}
+.body-one {
+  background-color: #524f4f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 200px 500px;
+  overflow: hidden;
+}
+.body-one .photo-body img {
+  width: 600px;
+  height: auto;
+  border: none;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+.body-one .photo-body img:hover {
+  transform: rotateY(0deg) rotateX(0deg) scale(1.05);
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  width: 300px;
+  padding-top: 0;
+}
+.body-one .content-left p {
+  color: white;
+  font-size: 15px;
+}
+.body-one .content-left button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(53, 53, 213);
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 150px;
+}
